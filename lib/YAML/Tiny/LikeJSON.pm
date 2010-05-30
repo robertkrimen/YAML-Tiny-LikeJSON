@@ -42,7 +42,7 @@ It will only deal with one YAML document at a time, so if you try to decode more
 
 =head1 USAGE
 
-=head1 $yaml = YAML::Tiny::LikeJSON->new
+=head2 $yaml = YAML::Tiny::LikeJSON->new
 
 Create a handle for invoking C<encode>/C<decode>
 

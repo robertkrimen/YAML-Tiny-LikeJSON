@@ -1,12 +1,14 @@
 #!/usr/bin/env perl
 use Dzpl
     name => 'YAML-Tiny-LikeJSON',
-    version => '0.0010',
+    version => '0.0011',
     author => 'Robert Krimen <robertkrimen@gmail.com>',
     license => 'Perl5',
     copyright => 'Robert Krimen',
 
     require => q/
+        YAML::Tiny
+
         [Test]
         Test::Most
     /,

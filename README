@@ -2,7 +2,7 @@ NAME
     YAML::Tiny::LikeJSON - Use YAML::Tiny like JSON
 
 VERSION
-    version 0.0010
+    version 0.0011
 
 SYNOPSIS
         use YAML::Tiny::LikeJSON;
@@ -45,7 +45,7 @@ DESCRIPTION
         Decoded more than 1 document (actually 2, but only returning the first)
 
 USAGE
-$yaml = YAML::Tiny::LikeJSON->new
+  $yaml = YAML::Tiny::LikeJSON->new
     Create a handle for invoking "encode"/"decode"
 
     Does not accept any arguments or options (for now)
